@@ -21,22 +21,22 @@
 				<li><?php _e( '<strong>Semantic Linkbacks</strong> <em>(Required)</em> - makes IndieWeb comments and mentions look better on your site.', 'indieweb' ); ?></li>
 				<li><?php _e( '<strong>Webmention for (Threaded) Comments</strong> - Adds support for threaded comments for webmentions.', 'indieweb' ); ?></li>
 				<li><?php _e( '<strong>Webactions</strong> - Adds webaction markups to WordPress elements.', 'indieweb' ); ?></li>
-				<li><?php _e( '<strong>Post Kinds</strong> - Allows you to reply/like/RSVP etc to another site from your own, by adding support for kinds of posts to WordPress as a custom taxonomy.', 'indieweb' ); ?></li>
+				<li><?php _e( '<strong>Post Kinds</strong> - Allows you to reply/like/RSVP etc to another site from your own, by adding support for kinds of posts to WordPress.', 'indieweb' ); ?></li>
 			</ol>
 		</li>
 
 		<li>
 			<h3><?php _e( 'Syndicate your content to other sites', 'indieweb' ); ?></h3>
-			<p><?php _e( 'Choose one of these different ways to display links for POSSE/syndicated versions of a post. They cannot both be used. Linking to the syndicated version of a post allows for bridgy to be able to discover the post as well as for end users to comment on those sites as a way of replying.', 'indieweb' ); ?></p>
-			<ol>
-				<li><?php _e( '<strong>Syndication Links</strong> - Adds fields to a post to allow manual entry of syndication links.', 'indieweb' ); ?></li>
-				<li><?php _e( '<strong>WordPress Syndication</strong> - automatically adds link to a post from a supported syndication plugin. Fully supports Social, partial support for SNAP, and support for Bridgy Publish.', 'indieweb' ); ?></li>
-			</ol>
+			<p><?php _e( 'Linking to the syndicated version of a post allows for bridgy to be able to discover the post as well as for end users to comment on those sites as a way of replying.', 'indieweb' ); ?></p>
+		<ol>
+			<li><?php _e( '<strong>Syndication Links</strong> - Adds fields to a post to allow manual entry of syndication links as well as automatically from a supported syndication plugin. Fully supports Social, partial support for SNAP.', 'indieweb' ); ?></li>
+	</ol>
 		</li>
 
 		<li>
 			<h3><?php _e( 'Other', 'indieweb' ); ?></h3>
 			<ol>
+				<li><?php _e( '<strong>MicroPub</strong> - A MicroPub Server', 'indieweb' ); ?></li>
 				<li><?php _e( '<strong>IndieWeb Press-This</strong> - Adds IndieWeb markup to the WordPressPress-This bookmarkets to allow you to respond on your site with one-click.', 'indieweb' ); ?></li>
 				<li><?php _e( '<strong>Hum URL Shortener</strong> - A personal URL shortener.', 'indieweb' ); ?></li>
 				<li><?php _e( '<strong>Indieauth</strong> - The plugin lets you login to the WordPress backend via IndieAuth. It uses the URL from the profile page to identify the blog user.', 'indieweb' ); ?></li>
@@ -44,7 +44,7 @@
 		</li>
 	</ul>
 
-	<p><a href="<?php echo admin_url('options-general.php?page=indieweb-installer'); ?>" class="button button-primary"><?php _e( 'Install Plugins', 'indieweb' ); ?></a></p>
+	<p><a href="<?php echo admin_url('plugins.php?page=indieweb-installer'); ?>" class="button button-primary"><?php _e( 'Install Plugins', 'indieweb' ); ?></a></p>
 
 	<h2><?php _e( 'Themes', 'indieweb' ); ?></h2>
 
